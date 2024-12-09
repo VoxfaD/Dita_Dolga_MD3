@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MD3t.MainPage"
+             Title="Database Manager">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <!-- Button to Display All Data -->
+            <Button Text="Display All Tables" 
+                Clicked="OnDisplayTablesClicked" />
+
+            <!-- Button to Generate Test Data -->
+            <Button Text="Generate Test Data" 
+                Clicked="OnGenerateTestDataClicked" />
+
+            <!-- Delete All Data -->
+            <Button Text="Delete All Data" 
+                Clicked="OnDeleteAllClicked" />
+
+
+            <!-- Button to Navigate to Student Page -->
+            <Button Text="Students"
+                Clicked="OnNavigateToStudentPageClicked" />
+
+            <Button Text="Assignments"
+        Clicked="OnNavigateToAssignementPageClicked" />
+
+            <Button Text="Submissions"
+        Clicked="OnNavigateToSubmissionPageClicked" />
+
+
+
+            <!-- Label to show results -->
+
+            <Label x:Name="ResultsLabel"
+                   Text="Results will appear here..."
+                   VerticalOptions="FillAndExpand"
+                   HorizontalOptions="FillAndExpand"
+                   LineBreakMode="WordWrap"
+                   FontSize="14" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35209.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD3t", "MD3t\MD3t.csproj", "{4DB4B918-4BCF-469F-A04B-8CB996968570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MD3t.DB", "MD3t.DB\MD3t.DB.csproj", "{1A16E4E5-3110-4172-8750-79744C33891B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DB4B918-4BCF-469F-A04B-8CB996968570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB4B918-4BCF-469F-A04B-8CB996968570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB4B918-4BCF-469F-A04B-8CB996968570}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4DB4B918-4BCF-469F-A04B-8CB996968570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB4B918-4BCF-469F-A04B-8CB996968570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB4B918-4BCF-469F-A04B-8CB996968570}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1A16E4E5-3110-4172-8750-79744C33891B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A16E4E5-3110-4172-8750-79744C33891B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A16E4E5-3110-4172-8750-79744C33891B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A16E4E5-3110-4172-8750-79744C33891B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC89D772-8A14-411D-9152-9BFF4B52CE78}
+	EndGlobalSection
+EndGlobal

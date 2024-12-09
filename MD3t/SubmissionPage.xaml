@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MD3t.SubmissionPage"
+             Title="Submission Manager">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <!-- Display Submissions -->
+            <Button Text="Display Submissions"
+                    Clicked="OnDisplaySubmissionsClicked" />
+
+            <!-- Add Submission -->
+            <Button Text="Add Submission"
+                    Clicked="OnAddSubmissionClicked" />
+
+            <!-- Submissions List -->
+            <VerticalStackLayout x:Name="SubmissionsList">
+                <!-- Dynamically generated submission items will appear here -->
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

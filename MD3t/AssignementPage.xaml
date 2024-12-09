@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MD3t.AssignementPage"
+             Title="Assignement Manager">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+            <!-- Display Assignments -->
+            <Button Text="Display Assignments"
+                    Clicked="OnDisplayAssignementsClicked" />
+
+            <!-- Add Assignment -->
+            <Button Text="Add Assignment"
+                    Clicked="OnAddAssignementClicked" />
+
+            <!-- Assignments List -->
+            <VerticalStackLayout x:Name="AssignementsList">
+                <!-- Dynamically generated assignment items will appear here -->
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
